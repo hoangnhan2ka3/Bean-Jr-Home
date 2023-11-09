@@ -65,9 +65,7 @@ window.onload = function() {
    if(window.location.href !== "https://hoangnhan2ka3.github.io/Bean-Jr-Home/") {
       window.location.href = "https://hoangnhan2ka3.github.io/Bean-Jr-Home/";
    }
-}
 
-window.onload = function() {
    const homeLink = document.querySelector('.home-link');
    homeLink.classList.add('active');
 }
