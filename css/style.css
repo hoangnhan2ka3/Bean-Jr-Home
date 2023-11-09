@@ -25,23 +25,23 @@ html{
 }
 @font-face {
 	font-family: Gilmer-Light;
-	src: url(../font/Gilmer\ Light.ttf);
+	src: url(../assets/font/Gilmer\ Light.ttf);
  }
 @font-face {
 	font-family: Gilmer-Regular;
-	src: url(../font/Gilmer\ Regular.ttf);
+	src: url(../assets/font/Gilmer\ Regular.ttf);
  }
 @font-face {
 	font-family: Gilmer-Medium;
-	src: url(../font/Gilmer\ Medium.ttf);
+	src: url(../assets/font/Gilmer\ Medium.ttf);
  }
 @font-face {
 	font-family: Gilmer-Bold;
-	src: url(../font/Gilmer\ Bold.ttf);
+	src: url(../assets/font/Gilmer\ Bold.ttf);
  }
 @font-face {
 	font-family: Gilmer-Heavy;
-	src: url(../font/Gilmer\ Heavy.ttf);
+	src: url(../assets/font/Gilmer\ Heavy.ttf);
  }
 :root {
 	--yellow: #FFE598;
