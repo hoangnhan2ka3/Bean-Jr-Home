@@ -818,7 +818,7 @@ html{
 	column-gap: 8px;
 }
 .capacity{
-	justify-content: end !important;
+	justify-content: end;
 }
 .right-menu-smallest ul{
 	background-color: transparent !important;
