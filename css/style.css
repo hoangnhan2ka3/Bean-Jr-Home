@@ -293,7 +293,7 @@ html{
 	font-family: var(--gilmer-bold);
 	color: var(--orange);
 }
-.trangchu{
+.active{
 	color: var(--orange) !important;
 }
 .nav-menu li{
@@ -357,7 +357,7 @@ html{
 	border-radius: 100px;
 	padding: 0 7.5px;
 	background-color: var(--white);
-	cursor: pointer;
+	cursor: not-allowed;
 }
 .address{
 	column-gap: 6px;

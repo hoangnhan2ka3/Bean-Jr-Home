@@ -29,16 +29,16 @@
                <div class="nav-left col-lg-9 col-6 d-flex align-items-center">
                   <a href="https://hoangnhan2ka3.github.io/Bean-Jr-Home/"><img src="assets/image/Logo.webp" alt="logo" width="67px"></a>
                   <ul class="nav-menu d-flex m-0 p-0">
-                     <li class="d-lg-block d-none"><a href="#" class="trangchu">Trang chủ</a></li>
-                     <li class="d-lg-block d-none"><a href="#menu">Menu <i class="fa-solid fa-chevron-down fa-xs"></i></a></li>
-                     <li class="d-lg-block d-none"><a href="#new-dishes">Món mới</a></li>
+                     <li class="d-lg-block d-none"><a href="#" id="home" class="menu-scroll home-link">Trang chủ</a></li>
+                     <li class="d-lg-block d-none"><a href="#menu" class="menu-scroll">Menu <i class="fa-solid fa-chevron-down fa-xs"></i></a></li>
+                     <li class="d-lg-block d-none"><a href="#new-dishes" class="menu-scroll">Món mới</a></li>
                      <li class="d-lg-block d-none">
-                        <a href="#combo" class="position-relative">
+                        <a href="#combo" class="position-relative menu-scroll">
                            COMBO<img src="assets/image/Small-bean.svg" class="position-absolute" width="9px">
                         </a>
                      </li>
-                     <li class="d-lg-block d-none"><a href="#footer">Giới thiệu</a></li>
-                     <li class="d-lg-block d-none"><a href="#footer">Liên hệ</a></li>
+                     <li class="d-lg-block d-none"><a href="#footer" class="menu-scroll">Giới thiệu</a></li>
+                     <li class="d-lg-block d-none"><a href="#connect" class="menu-scroll">Liên hệ</a></li>
                      <li class="d-lg-none d-block"><a href="#"><i class="fa-duotone fa-bars fa-lg"></i></a></li>
                   </ul>
                </div>
@@ -164,7 +164,7 @@
    <div class="hero">
       <div class="container-fluid">
          <div class="container hero-container">
-            <div class="hero-section new-dishes" id="new-dishes">
+            <div class="hero-section new-dishes section" id="new-dishes">
                <h1 class="d-flex align-items-center column-gap-4">Món mới<hr class="flex-grow-1 m-0 rounded"></h1>
                <div class="row gy-sm-5 gy-4">
                   <div class="col-md-6 col-12 new-dish fs-20 fw-bold">
@@ -185,7 +185,7 @@
                   </div>
                </div>
             </div>
-            <div class="hero-section combo" id="combo">
+            <div class="hero-section combo section" id="combo">
                <h1 class="d-flex align-items-center column-gap-4">COMBO SIÊU ĐẬU<hr class="flex-grow-1 m-0 rounded"></h1>
                <div class="combo-img overflow-hidden">
                   <a href="#">
@@ -193,7 +193,7 @@
                   </a>
                </div>
             </div>
-            <div class="hero-section container-fluid px-0 menu" id="menu">
+            <div class="hero-section container-fluid px-0 menu section" id="menu">
                <h1 class="d-flex align-items-center column-gap-4">Menu<hr class="flex-grow-1 m-0 rounded"></h1>
                <div class="row gutter-4 menu-main">
                   <div class="col-9 left-menu menu-big">
@@ -1290,7 +1290,7 @@
             </div>
          </div>
       </div>
-      <div class="connect">
+      <div class="connect section" id="connect">
          <div class="container connect-container d-flex flex-column justify-content-between align-items-center">
             <h1 class="text-center">Kết nối với chúng mình</h1>
             <div class="col-lg-8 col-md-10 col-11 connect-main d-flex flex-column text-center">
@@ -1315,7 +1315,7 @@
             </div>
          </div>
       </div>
-      <div class="contact-us" id="contact-us">
+      <div class="contact-us section" id="contact-us">
          <div class="container contact-us-container d-flex flex-column justify-content-between align-items-center">
             <h1 class="text-center d-sm-block d-none">Hoặc liên lạc trực tiếp với chúng mình</h1>
             <h1 class="text-center d-sm-none d-block">Hoặc liên lạc trực tiếp <br> với chúng mình</h1>
@@ -1338,7 +1338,7 @@
          </div>
       </div>
    </div>
-   <div class="footer" id="footer">
+   <div class="footer section" id="footer">
       <div class="footer-bg container-fluid">
          <div class="footer-container footer-container-big container">
             <div class="row">
