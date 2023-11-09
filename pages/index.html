@@ -1,0 +1,1486 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Bean Jr. Ordering Homepage</title>
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+
+   <link href="../css/style.css" rel="stylesheet" type="text/css">
+
+   <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome" href="/css/app-wa-02670e9412103b5852dcbe140d278c49.css?vsn=d">
+   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css">
+   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css">
+   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css">
+      
+   <link rel="icon" href="../assets/image/favicon.png" type="image/x-icon">
+
+</head>
+<body class="body">
+   
+   <div class="nav">
+      <div class="container-fluid nav-bg d-flex justify-content-center align-items-center">
+         <div class="container d-lg-block d-none nav-container">
+            <div class="row">
+               <div class="nav-left col-lg-9 col-6 d-flex align-items-center">
+                  <a href="https://hoangnhan2ka3.github.io/Bean-Jr-Home/"><img src="../assets/image/Logo.webp" alt="logo" width="67px"></a>
+                  <ul class="nav-menu d-flex m-0 p-0">
+                     <li class="d-lg-block d-none"><a href="#" class="trangchu">Trang chủ</a></li>
+                     <li class="d-lg-block d-none"><a href="#menu">Menu <i class="fa-solid fa-chevron-down fa-xs"></i></a></li>
+                     <li class="d-lg-block d-none"><a href="#new-dishes">Món mới</a></li>
+                     <li class="d-lg-block d-none">
+                        <a href="#combo" class="position-relative">
+                           COMBO<img src="../assets/image/Small-bean.svg" class="position-absolute" width="9px">
+                        </a>
+                     </li>
+                     <li class="d-lg-block d-none"><a href="#footer">Giới thiệu</a></li>
+                     <li class="d-lg-block d-none"><a href="#footer">Liên hệ</a></li>
+                     <li class="d-lg-none d-block"><a href="#"><i class="fa-duotone fa-bars fa-lg"></i></a></li>
+                  </ul>
+               </div>
+               <div class="nav-right col-lg-3 col-6 d-flex justify-content-end align-items-center">
+                  <div class="vietnam-flag">
+                     <a href="#" class="d-flex justify-content-center align-items-center column-gap-2">
+                        <img src="../assets/image/Vietnam-flag.svg" alt="">
+                        <i class="fa-solid fa-chevron-down fa-xs"></i>
+                     </a>
+                  </div>
+                  <div class="nav-login">
+                     <a href="#" class="d-flex align-items-center column-gap-2 fs-10">
+                        <img src="../assets/image/Avatar.svg" alt="">
+                        <span class="d-sm-block d-none">Đăng nhập/ Đăng ký</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid d-lg-none d-block nav-bg d-flex justify-content-center align-items-center">
+         <div class="container nav-container">
+            <div class="row">
+               <div class="nav-left col-4 d-flex align-items-center">
+                  <ul class="nav-menu d-flex m-0 p-0">
+                     <li class="d-lg-none d-block"><a href="#"><i class="fa-duotone fa-bars fa-lg"></i></a></li>
+                  </ul>
+               </div>
+               <div class="col-4 d-flex justify-content-center align-items-center">
+                  <a href="#"><img src="../assets/image/Logo.webp" alt="logo" class="logo-middle"></a>
+               </div>
+               <div class="nav-right col-4 d-flex justify-content-end align-items-center">
+                  <div class="vietnam-flag d-md-block d-none">
+                     <a href="#" class="d-flex justify-content-center align-items-center column-gap-2">
+                        <img src="../assets/image/Vietnam-flag.svg" alt="">
+                        <i class="fa-solid fa-chevron-down fa-xs"></i>
+                     </a>
+                  </div>
+                  <div class="nav-login">
+                     <a href="#" class="d-flex align-items-center column-gap-2 fs-10">
+                        <img src="assets/image/Avatar.svg" alt="">
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="order">
+      <div class="container-fluid order-bg d-flex justify-content-center align-items-center">
+         <div class="container order-container d-flex flex-column align-items-center">
+               <div class="address address-up d-flex align-items-center d-md-none d-flex">
+                  <i class="fa-solid fa-circle-location-arrow"></i>
+                  <input class="d-flex align-content-center w-100" type="text" placeholder="Nhập địa chỉ của bạn...">
+               </div>
+            <div class="order-container-bg d-flex justify-content-between">
+               <div class="order-left d-flex justify-content-center align-items-center">
+                  <div class="order-type d-flex justify-content-between align-items-center">
+                     <span class="fs-10 type-selected d-flex justify-content-center align-items-center text-nowrap">Đặt giao hàng</span>
+                     <p class="fs-10 fw-regular opacity-50 m-0 type-deselected d-flex justify-content-center align-items-center text-nowrap">Đặt đến lấy (Sắp có)</p>
+                     <i class="fa-solid fa-chevron-down fa-xs d-none mx-2"></i>
+                  </div>
+                  <span class="fs-10 text-nowrap d-md-block d-none">Giao hàng đến</span>
+                  <div class="address d-flex align-items-center d-md-flex d-none">
+                     <i class="fa-solid fa-circle-location-arrow"></i>
+                     <input class="d-flex align-content-center w-100" type="text" placeholder="Nhập địa chỉ của bạn...">
+                  </div>
+               </div>
+               <div class="order-right d-flex justify-content-center align-items-center">
+                  <a href="#">
+                     <div class="favorite d-flex justify-content-center align-items-center">
+                        <i class="fa-regular fa-heart"></i>
+                        <span class="d-lg-block d-md-none d-sm-block d-none text-nowrap">Yêu thích</span>
+                     </div>
+                  </a>
+                  <a href="#">
+                     <div class="cart d-flex justify-content-between align-items-center">
+                        <div class="cart-title d-flex justify-content-between align-items-center">
+                           <i class="fa-duotone fa-bag-shopping"></i>
+                           <span class="d-lg-block d-md-none d-sm-block d-none text-nowrap">Giỏ hàng</span>
+                        </div>
+                        <div class="cart-amount d-flex justify-content-between align-items-center">
+                           <span class="fs-10 cart-amount-data d-flex justify-content-center align-items-center">01</span>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="banner">
+      <section class="splide" aria-label="Splide Basic HTML Example">
+         <div class="splide__arrows">
+            <button class="splide__arrow splide__arrow--prev">
+               <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="splide__arrow splide__arrow--next">
+               <i class="fa-solid fa-chevron-right"></i>
+            </button>
+         </div>
+         <div class="splide__track">
+            <ul class="splide__list">
+               <li class="splide__slide" data-splide-interval="3000">
+                  <div class="img-box d-flex justify-content-center align-items-center">
+                     <img src="../assets/image/banner1.jpg" alt="">
+                  </div>
+               </li>
+               <li class="splide__slide" data-splide-interval="3000">
+                  <div class="img-box d-flex justify-content-center align-items-center">
+                     <img src="../assets/image/banner2.jpg" alt="">
+                  </div>
+               </li>
+               <li class="splide__slide" data-splide-interval="3000">
+                  <div class="img-box d-flex justify-content-center align-items-center">
+                     <img src="../assets/image/banner3.jpg" alt="">
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </section>
+   </div>
+   <div class="hero">
+      <div class="container-fluid">
+         <div class="container hero-container">
+            <div class="hero-section new-dishes" id="new-dishes">
+               <h1 class="d-flex align-items-center column-gap-4">Món mới<hr class="flex-grow-1 m-0 rounded"></h1>
+               <div class="row gy-sm-5 gy-4">
+                  <div class="col-md-6 col-12 new-dish fs-20 fw-bold">
+                     <a href="#" class="d-flex flex-column align-items-center row-gap-3">
+                        <div class="new-dish-img">
+                           <img src="../assets/image/saladdau.jpg" alt="" width="100%">
+                        </div>
+                        <span>Salad đậu</span>
+                     </a>
+                  </div>
+                  <div class="col-md-6 col-12 new-dish fs-20 fw-bold">
+                     <a href="#" class="d-flex flex-column align-items-center row-gap-3">
+                        <div class="new-dish-img">
+                           <img src="../assets/image/dauhu.jpg" alt="" width="100%">
+                        </div>
+                        <span>Đậu hũ</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="hero-section combo" id="combo">
+               <h1 class="d-flex align-items-center column-gap-4">COMBO SIÊU ĐẬU<hr class="flex-grow-1 m-0 rounded"></h1>
+               <div class="combo-img overflow-hidden">
+                  <a href="#">
+                     <img src="../assets/image/combo.jpg" alt="" width="100%">
+                  </a>
+               </div>
+            </div>
+            <div class="hero-section container-fluid px-0 menu" id="menu">
+               <h1 class="d-flex align-items-center column-gap-4">Menu<hr class="flex-grow-1 m-0 rounded"></h1>
+               <div class="row gutter-4 menu-main">
+                  <div class="col-9 left-menu menu-big">
+                     <div class="container left-menu-container">
+                        <div class="row gutter-20">
+                           <div class="col-8 product product-best-seller">
+                              <div class="orange d-flex column-gap-3 position-relative">
+                                 <div class="product-img-best-seller"></div>
+                                 <div class="product-detail pt-3 d-flex flex-column justify-content-between">
+                                    <div class="product-detail-up">
+                                       <h2 class="detail-block">Sữa đậu lăng đỏ yến mạch</h2>
+                                       <div class="capacity detail-block justify-content-start">
+                                          <h2 class="fw-regular fs-16">330ml</h2>
+                                       </div>
+                                       <div class="rate detail-block justify-content-end">
+                                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                       </div>
+                                       <div class="detail d-flex flex-column gap-2">
+                                          <h2 class="fw-regular fs-10">Đậu lăng đỏ, yến mạch, tinh dầu hướng dương, Omega-3...</h2>
+                                          <div class="values d-flex align-items-center">
+                                             <div class="value">No lâu</div>
+                                             <div class="value">Dinh dưỡng</div>
+                                             <div class="value">Giảm cân</div>
+                                             <i class="fa-solid fa-play"></i>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="product-detail-down">
+                                       <div class="sale d-flex flex-column justify-content-center align-items-center">
+                                          <h3 class="text-nowrap">KHUYẾN MÃI CÒN</h3>
+                                          <p class="fw-heavy text-white fs-10 m-0 text-nowrap">2 ngày : 15 giờ : 50 phút</p>
+                                       </div>
+                                       <div class="added-to-favorite d-flex align-items-end">
+                                          <i class="fa-solid fa-heart text-orange"></i>
+                                       </div>
+                                       <div class="price d-flex flex-column justify-content-end align-items-end">
+                                          <p class="fw-medium fs-10 m-0 text-decoration-line-through">35.000đ</p>
+                                          <h3>32.000đ</h3>
+                                       </div>
+                                       <div class="add-to-cart d-flex justify-content-between align-items-center">
+                                          <div class="add-to d-flex align-items-center">
+                                             <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                             <p class="fw-bold fs-10 text-white m-0 text-nowrap">Thêm vào giỏ hàng</p>
+                                          </div>
+                                          <div class="add-more d-flex justify-content-between align-items-center">
+                                             <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                             <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                             <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="best-seller-tag position-absolute">
+                                    Best seller
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-4 product">
+                              <div class="brown d-flex flex-column">
+                                 <div class="product-img product-brown"></div>
+                                 <div class="product-detail-normal-up">
+                                    <h2 class="detail-block product-name">Sữa đậu đỏ gạo lứt</h2>
+                                    <div class="capacity d-flex justify-content-end align-items-start pt-1 detail-block">
+                                       <h2 class="fw-regular fs-16">330ml</h2>
+                                    </div>
+                                    <div class="detail d-flex flex-column gap-2">
+                                       <h2 class="fw-regular fs-10 p-0 text-nowrap">Đậu đỏ, gạo lứt, tinh dầu gấc, Omega-3...</h2>
+                                       <div class="values d-flex align-items-center">
+                                          <div class="value">Duy trì cân năng</div>
+                                          <div class="value">Tim mạch</div>
+                                          <i class="fa-solid fa-play"></i>
+                                       </div>
+                                    </div>
+                                    <div class="rate detail-block">
+                                       <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-duotone fa-star-half"></i>
+                                    </div>
+                                    <div class="price d-flex flex-column justify-content-end align-items-end">
+                                       <h3 class="text-normal fw-bold">35.000đ</h3>
+                                    </div>
+                                 </div>
+                                 <div class="product-detail-normal-down d-flex justify-content-between">
+                                    <div class="add-to-favorite d-flex align-items-end">
+                                       <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="add-to-cart d-flex justify-content-between align-items-center">
+                                       <div class="add-to d-flex align-items-center">
+                                          <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                          <p class="fw-bold fs-10 text-white m-0 text-nowrap">Thêm vào giỏ hàng</p>
+                                       </div>
+                                       <div class="add-more d-flex justify-content-between align-items-center">
+                                          <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                          <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                          <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row gutter-20">
+                           <div class="col-4 product">
+                              <div class="yellow d-flex flex-column">
+                                 <div class="product-img product-yellow"></div>
+                                 <div class="product-detail-normal-up">
+                                    <h2 class="detail-block product-name">Sữa bắp hạt sen</h2>
+                                    <div class="capacity d-flex justify-content-end align-items-start pt-1 detail-block">
+                                       <h2 class="fw-regular fs-16">330ml</h2>
+                                    </div>
+                                    <div class="detail d-flex flex-column gap-2">
+                                       <h2 class="fw-regular fs-10 p-0 text-nowrap">Bắp, hạt sen, tinh dầu gấc, Omega-3...</h2>
+                                       <div class="values d-flex align-items-center">
+                                          <div class="value">Đẹp da</div>
+                                          <div class="value">Cải thiện trí nhớ</div>
+                                          <i class="fa-solid fa-play"></i>
+                                       </div>
+                                    </div>
+                                    <div class="rate detail-block">
+                                       <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-duotone fa-star-half"></i>
+                                    </div>
+                                    <div class="price d-flex flex-column justify-content-end align-items-end">
+                                       <h3 class="text-normal fw-bold">35.000đ</h3>
+                                    </div>
+                                 </div>
+                                 <div class="product-detail-normal-down d-flex justify-content-between">
+                                    <div class="add-to-favorite d-flex align-items-end">
+                                       <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="add-to-cart d-flex justify-content-between align-items-center">
+                                       <div class="add-to d-flex align-items-center">
+                                          <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                          <p class="fw-bold fs-10 text-white m-0 text-nowrap">Thêm vào giỏ hàng</p>
+                                       </div>
+                                       <div class="add-more d-flex justify-content-between align-items-center">
+                                          <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                          <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                          <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-4 product">
+                              <div class="gray d-flex flex-column">
+                                 <div class="product-img product-gray"></div>
+                                 <div class="product-detail-normal-up">
+                                    <h2 class="detail-block product-name">Sữa đậu đen mè đen</h2>
+                                    <div class="capacity d-flex justify-content-end align-items-start pt-1 detail-block">
+                                       <h2 class="fw-regular fs-16">330ml</h2>
+                                    </div>
+                                    <div class="detail d-flex flex-column gap-2">
+                                       <h2 class="fw-regular fs-10 p-0 text-nowrap">Đậu đen, mè đen, tinh dầu gấc, Omega-3...</h2>
+                                       <div class="values d-flex align-items-center">
+                                          <div class="value">Tiêu hóa</div>
+                                          <div class="value">Giảm cân</div>
+                                          <i class="fa-solid fa-play"></i>
+                                       </div>
+                                    </div>
+                                    <div class="rate detail-block">
+                                       <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-duotone fa-star-half"></i>
+                                    </div>
+                                    <div class="price d-flex flex-column justify-content-end align-items-end">
+                                       <h3 class="text-normal fw-bold">35.000đ</h3>
+                                    </div>
+                                 </div>
+                                 <div class="product-detail-normal-down d-flex justify-content-between">
+                                    <div class="add-to-favorite d-flex align-items-end">
+                                       <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="add-to-cart d-flex justify-content-between align-items-center">
+                                       <div class="add-to d-flex align-items-center">
+                                          <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                          <p class="fw-bold fs-10 text-white m-0 text-nowrap">Thêm vào giỏ hàng</p>
+                                       </div>
+                                       <div class="add-more d-flex justify-content-between align-items-center">
+                                          <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                          <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                          <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-4 product">
+                              <div class="green d-flex flex-column">
+                                 <div class="product-img product-green"></div>
+                                 <div class="product-detail-normal-up">
+                                    <h2 class="detail-block product-name">Sữa đậu xanh lá dứa</h2>
+                                    <div class="capacity d-flex justify-content-end align-items-start pt-1 detail-block">
+                                       <h2 class="fw-regular fs-16">330ml</h2>
+                                    </div>
+                                    <div class="detail d-flex flex-column gap-2">
+                                       <h2 class="fw-regular fs-10 p-0 text-nowrap">Đậu xanh, lá dứa, tinh dầu hướng dương...</h2>
+                                       <div class="values d-flex align-items-center">
+                                          <div class="value">Giải nhiệt</div>
+                                          <div class="value">Thanh mát</div>
+                                          <i class="fa-solid fa-play"></i>
+                                       </div>
+                                    </div>
+                                    <div class="rate detail-block">
+                                       <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-duotone fa-star-half"></i>
+                                    </div>
+                                    <div class="price d-flex flex-column justify-content-end align-items-end">
+                                       <h3 class="text-normal fw-bold">35.000đ</h3>
+                                    </div>
+                                 </div>
+                                 <div class="product-detail-normal-down d-flex justify-content-between">
+                                    <div class="add-to-favorite d-flex align-items-end">
+                                       <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="add-to-cart d-flex justify-content-between align-items-center">
+                                       <div class="add-to d-flex align-items-center">
+                                          <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                          <p class="fw-bold fs-10 text-white m-0 text-nowrap">Thêm vào giỏ hàng</p>
+                                       </div>
+                                       <div class="add-more d-flex justify-content-between align-items-center">
+                                          <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                          <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                          <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row gutter-20">
+                           <div class="col-4 product">
+                              <div class="blue d-flex flex-column">
+                                 <div class="product-img product-blue"></div>
+                                 <div class="product-detail-normal-up">
+                                    <h2 class="detail-block product-name">Sữa đậu trắng hoa đậu biếc</h2>
+                                    <div class="capacity d-flex justify-content-end align-items-start pt-1 detail-block">
+                                       <h2 class="fw-regular fs-16">330ml</h2>
+                                    </div>
+                                    <div class="detail d-flex flex-column gap-2">
+                                       <h2 class="fw-regular fs-10 p-0 text-nowrap">Đậu trắng, hoa đậu biếc, tinh dầu gấc...</h2>
+                                       <div class="values d-flex align-items-center">
+                                          <div class="value">Giảm cân</div>
+                                          <div class="value">Chống lão hóa</div>
+                                          <i class="fa-solid fa-play"></i>
+                                       </div>
+                                    </div>
+                                    <div class="rate detail-block">
+                                       <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-duotone fa-star-half"></i>
+                                    </div>
+                                    <div class="price d-flex flex-column justify-content-end align-items-end">
+                                       <h3 class="text-normal fw-bold">35.000đ</h3>
+                                    </div>
+                                 </div>
+                                 <div class="product-detail-normal-down d-flex justify-content-between">
+                                    <div class="add-to-favorite d-flex align-items-end">
+                                       <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="add-to-cart d-flex justify-content-between align-items-center">
+                                       <div class="add-to d-flex align-items-center">
+                                          <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                          <p class="fw-bold fs-10 text-white m-0 text-nowrap">Thêm vào giỏ hàng</p>
+                                       </div>
+                                       <div class="add-more d-flex justify-content-between align-items-center">
+                                          <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                          <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                          <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-4 product">
+                              <div class="purple d-flex flex-column">
+                                 <div class="product-img product-purple"></div>
+                                 <div class="product-detail-normal-up">
+                                    <h2 class="detail-block product-name">Sữa đậu nành nếp cẩm</h2>
+                                    <div class="capacity d-flex justify-content-end align-items-start pt-1 detail-block">
+                                       <h2 class="fw-regular fs-16">330ml</h2>
+                                    </div>
+                                    <div class="detail d-flex flex-column gap-2">
+                                       <h2 class="fw-regular fs-10 p-0 text-nowrap">Đậu nành, nếp cẩm, tinh dầu gấc...</h2>
+                                       <div class="values d-flex align-items-center">
+                                          <div class="value">Tốt cho xương</div>
+                                          <div class="value">Calo thấp</div>
+                                          <i class="fa-solid fa-play"></i>
+                                       </div>
+                                    </div>
+                                    <div class="rate detail-block">
+                                       <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-duotone fa-star-half"></i>
+                                    </div>
+                                    <div class="price d-flex flex-column justify-content-end align-items-end">
+                                       <h3 class="text-normal fw-bold">35.000đ</h3>
+                                    </div>
+                                 </div>
+                                 <div class="product-detail-normal-down d-flex justify-content-between">
+                                    <div class="add-to-favorite d-flex align-items-end">
+                                       <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="add-to-cart d-flex justify-content-between align-items-center">
+                                       <div class="add-to d-flex align-items-center">
+                                          <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                          <p class="fw-bold fs-10 text-white m-0 text-nowrap">Thêm vào giỏ hàng</p>
+                                       </div>
+                                       <div class="add-more d-flex justify-content-between align-items-center">
+                                          <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                          <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                          <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-4 product">
+                              <div class="blank"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-8 left-menu menu-small">
+                     <div class="container left-menu-container">
+                        <div class="row gutter-20">
+                           <div class="col-12 product product-best-seller">
+                              <div class="orange d-flex column-gap-3 position-relative">
+                                 <div class="product-img-best-seller"></div>
+                                 <div class="product-detail pt-3 d-flex flex-column justify-content-between">
+                                    <div class="product-detail-up">
+                                       <h2 class="detail-block">Sữa đậu lăng đỏ <br> yến mạch</h2>
+                                       <div class="capacity-rate detail-block d-flex justify-content-between align-items-center">
+                                          <h2 class="fw-regular fs-16">330ml</h2>
+                                          <div class="star-rate d-flex justify-content-center align-items-center">
+                                             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> 
+                                          </div>
+                                       </div>
+                                       <div class="detail d-flex flex-column gap-2">
+                                          <h2 class="fw-regular fs-10">Đậu lăng đỏ, yến mạch, tinh dầu hướng dương, Omega-3, tinh dầu gấc...</h2>
+                                          <div class="values d-flex align-items-center">
+                                             <div class="value">No lâu</div>
+                                             <div class="value">Dinh dưỡng</div>
+                                             <div class="value">Giảm cân</div>
+                                             <i class="fa-solid fa-play"></i>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="product-detail-down">
+                                       <div class="sale d-flex flex-column justify-content-center align-items-center">
+                                          <h3 class="text-nowrap">KHUYẾN MÃI CÒN</h3>
+                                          <p class="fw-heavy text-white fs-10 m-0 text-nowrap">2 ngày : 15 giờ : 50 phút</p>
+                                       </div>
+                                       <div class="added-to-favorite d-flex align-items-end">
+                                          <i class="fa-solid fa-heart text-orange"></i>
+                                       </div>
+                                       <div class="price d-flex flex-column justify-content-end align-items-end">
+                                          <p class="fw-medium fs-10 m-0 text-decoration-line-through">35.000đ</p>
+                                          <h3>32.000đ</h3>
+                                       </div>
+                                       <div class="add-to-cart d-flex justify-content-between align-items-center">
+                                          <div class="add-to d-flex align-items-center">
+                                             <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                             <p class="fw-bold fs-10 text-white m-0 text-nowrap">Thêm vào giỏ hàng</p>
+                                          </div>
+                                          <div class="add-more d-flex justify-content-between align-items-center">
+                                             <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                             <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                             <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="best-seller-tag position-absolute">
+                                    Best seller
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row gutter-20">
+                           <div class="col-6 product">
+                              <div class="brown d-flex flex-column">
+                                 <div class="product-img product-brown"></div>
+                                 <div class="product-detail-normal-up">
+                                    <h2 class="detail-block product-name">Sữa đậu đỏ <br> gạo lứt</h2>
+                                    <div class="capacity d-flex justify-content-end align-items-start pt-1 detail-block">
+                                       <h2 class="fw-regular fs-16">330ml</h2>
+                                    </div>
+                                    <div class="detail d-flex flex-column gap-2">
+                                       <h2 class="fw-regular fs-10 p-0 text-nowrap">Đậu đỏ, gạo lứt, tinh dầu gấc, Omega-3...</h2>
+                                       <div class="values d-flex align-items-center">
+                                          <div class="value">Duy trì cân năng</div>
+                                          <div class="value">Tim mạch</div>
+                                          <i class="fa-solid fa-play"></i>
+                                       </div>
+                                    </div>
+                                    <div class="rate detail-block">
+                                       <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-duotone fa-star-half"></i>
+                                    </div>
+                                    <div class="price d-flex flex-column justify-content-end align-items-end">
+                                       <h3 class="text-normal fw-bold">35.000đ</h3>
+                                    </div>
+                                 </div>
+                                 <div class="product-detail-normal-down d-flex justify-content-between">
+                                    <div class="add-to-favorite d-flex align-items-end">
+                                       <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="add-to-cart d-flex justify-content-between align-items-center">
+                                       <div class="add-to d-flex align-items-center">
+                                          <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                          <p class="fw-bold fs-10 text-white m-0 text-nowrap">Thêm vào giỏ hàng</p>
+                                       </div>
+                                       <div class="add-more d-flex justify-content-between align-items-center">
+                                          <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                          <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                          <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-6 product">
+                              <div class="yellow d-flex flex-column">
+                                 <div class="product-img product-yellow"></div>
+                                 <div class="product-detail-normal-up">
+                                    <h2 class="detail-block product-name">Sữa bắp hạt <br> sen</h2>
+                                    <div class="capacity d-flex justify-content-end align-items-start pt-1 detail-block">
+                                       <h2 class="fw-regular fs-16">330ml</h2>
+                                    </div>
+                                    <div class="detail d-flex flex-column gap-2">
+                                       <h2 class="fw-regular fs-10 p-0 text-nowrap">Bắp, hạt sen, tinh dầu gấc, Omega-3...</h2>
+                                       <div class="values d-flex align-items-center">
+                                          <div class="value">Đẹp da</div>
+                                          <div class="value">Cải thiện trí nhớ</div>
+                                          <i class="fa-solid fa-play"></i>
+                                       </div>
+                                    </div>
+                                    <div class="rate detail-block">
+                                       <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-duotone fa-star-half"></i>
+                                    </div>
+                                    <div class="price d-flex flex-column justify-content-end align-items-end">
+                                       <h3 class="text-normal fw-bold">35.000đ</h3>
+                                    </div>
+                                 </div>
+                                 <div class="product-detail-normal-down d-flex justify-content-between">
+                                    <div class="add-to-favorite d-flex align-items-end">
+                                       <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="add-to-cart d-flex justify-content-between align-items-center">
+                                       <div class="add-to d-flex align-items-center">
+                                          <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                          <p class="fw-bold fs-10 text-white m-0 text-nowrap">Thêm vào giỏ hàng</p>
+                                       </div>
+                                       <div class="add-more d-flex justify-content-between align-items-center">
+                                          <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                          <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                          <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row gutter-20">
+                           <div class="col-6 product">
+                              <div class="gray d-flex flex-column">
+                                 <div class="product-img product-gray"></div>
+                                 <div class="product-detail-normal-up">
+                                    <h2 class="detail-block product-name">Sữa đậu đen <br> mè đen</h2>
+                                    <div class="capacity d-flex justify-content-end align-items-start pt-1 detail-block">
+                                       <h2 class="fw-regular fs-16">330ml</h2>
+                                    </div>
+                                    <div class="detail d-flex flex-column gap-2">
+                                       <h2 class="fw-regular fs-10 p-0 text-nowrap">Đậu đen, mè đen, tinh dầu gấc, Omega-3...</h2>
+                                       <div class="values d-flex align-items-center">
+                                          <div class="value">Tiêu hóa</div>
+                                          <div class="value">Giảm cân</div>
+                                          <i class="fa-solid fa-play"></i>
+                                       </div>
+                                    </div>
+                                    <div class="rate detail-block">
+                                       <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-duotone fa-star-half"></i>
+                                    </div>
+                                    <div class="price d-flex flex-column justify-content-end align-items-end">
+                                       <h3 class="text-normal fw-bold">35.000đ</h3>
+                                    </div>
+                                 </div>
+                                 <div class="product-detail-normal-down d-flex justify-content-between">
+                                    <div class="add-to-favorite d-flex align-items-end">
+                                       <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="add-to-cart d-flex justify-content-between align-items-center">
+                                       <div class="add-to d-flex align-items-center">
+                                          <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                          <p class="fw-bold fs-10 text-white m-0 text-nowrap">Thêm vào giỏ hàng</p>
+                                       </div>
+                                       <div class="add-more d-flex justify-content-between align-items-center">
+                                          <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                          <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                          <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-6 product">
+                              <div class="green d-flex flex-column">
+                                 <div class="product-img product-green"></div>
+                                 <div class="product-detail-normal-up">
+                                    <h2 class="detail-block product-name">Sữa đậu xanh <br> lá dứa</h2>
+                                    <div class="capacity d-flex justify-content-end align-items-start pt-1 detail-block">
+                                       <h2 class="fw-regular fs-16">330ml</h2>
+                                    </div>
+                                    <div class="detail d-flex flex-column gap-2">
+                                       <h2 class="fw-regular fs-10 p-0 text-nowrap">Đậu xanh, lá dứa, tinh dầu hướng dương...</h2>
+                                       <div class="values d-flex align-items-center">
+                                          <div class="value">Giải nhiệt</div>
+                                          <div class="value">Thanh mát</div>
+                                          <i class="fa-solid fa-play"></i>
+                                       </div>
+                                    </div>
+                                    <div class="rate detail-block">
+                                       <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-duotone fa-star-half"></i>
+                                    </div>
+                                    <div class="price d-flex flex-column justify-content-end align-items-end">
+                                       <h3 class="text-normal fw-bold">35.000đ</h3>
+                                    </div>
+                                 </div>
+                                 <div class="product-detail-normal-down d-flex justify-content-between">
+                                    <div class="add-to-favorite d-flex align-items-end">
+                                       <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="add-to-cart d-flex justify-content-between align-items-center">
+                                       <div class="add-to d-flex align-items-center">
+                                          <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                          <p class="fw-bold fs-10 text-white m-0 text-nowrap">Thêm vào giỏ hàng</p>
+                                       </div>
+                                       <div class="add-more d-flex justify-content-between align-items-center">
+                                          <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                          <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                          <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row gutter-20">
+                           <div class="col-6 product">
+                              <div class="blue d-flex flex-column">
+                                 <div class="product-img product-blue"></div>
+                                 <div class="product-detail-normal-up">
+                                    <h2 class="detail-block product-name text-nowrap">Sữa đậu trắng <br> hoa đậu biếc</h2>
+                                    <div class="capacity d-flex justify-content-end align-items-start pt-1 detail-block">
+                                       <h2 class="fw-regular fs-16">330ml</h2>
+                                    </div>
+                                    <div class="detail d-flex flex-column gap-2">
+                                       <h2 class="fw-regular fs-10 p-0 text-nowrap">Đậu trắng, hoa đậu biếc, tinh dầu gấc...</h2>
+                                       <div class="values d-flex align-items-center">
+                                          <div class="value">Giảm cân</div>
+                                          <div class="value">Chống lão hóa</div>
+                                          <i class="fa-solid fa-play"></i>
+                                       </div>
+                                    </div>
+                                    <div class="rate detail-block">
+                                       <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-duotone fa-star-half"></i>
+                                    </div>
+                                    <div class="price d-flex flex-column justify-content-end align-items-end">
+                                       <h3 class="text-normal fw-bold">35.000đ</h3>
+                                    </div>
+                                 </div>
+                                 <div class="product-detail-normal-down d-flex justify-content-between">
+                                    <div class="add-to-favorite d-flex align-items-end">
+                                       <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="add-to-cart d-flex justify-content-between align-items-center">
+                                       <div class="add-to d-flex align-items-center">
+                                          <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                          <p class="fw-bold fs-10 text-white m-0 text-nowrap">Thêm vào giỏ hàng</p>
+                                       </div>
+                                       <div class="add-more d-flex justify-content-between align-items-center">
+                                          <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                          <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                          <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-6 product">
+                              <div class="purple d-flex flex-column">
+                                 <div class="product-img product-purple"></div>
+                                 <div class="product-detail-normal-up">
+                                    <h2 class="detail-block product-name text-nowrap">Sữa đậu nành <br> nếp cẩm</h2>
+                                    <div class="capacity d-flex justify-content-end align-items-start pt-1 detail-block">
+                                       <h2 class="fw-regular fs-16">330ml</h2>
+                                    </div>
+                                    <div class="detail d-flex flex-column gap-2">
+                                       <h2 class="fw-regular fs-10 p-0 text-nowrap">Đậu nành, nếp cẩm, tinh dầu gấc...</h2>
+                                       <div class="values d-flex align-items-center">
+                                          <div class="value">Tốt cho xương</div>
+                                          <div class="value">Calo thấp</div>
+                                          <i class="fa-solid fa-play"></i>
+                                       </div>
+                                    </div>
+                                    <div class="rate detail-block">
+                                       <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-duotone fa-star-half"></i>
+                                    </div>
+                                    <div class="price d-flex flex-column justify-content-end align-items-end">
+                                       <h3 class="text-normal fw-bold">35.000đ</h3>
+                                    </div>
+                                 </div>
+                                 <div class="product-detail-normal-down d-flex justify-content-between">
+                                    <div class="add-to-favorite d-flex align-items-end">
+                                       <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="add-to-cart d-flex justify-content-between align-items-center">
+                                       <div class="add-to d-flex align-items-center">
+                                          <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                          <p class="fw-bold fs-10 text-white m-0 text-nowrap">Thêm vào giỏ hàng</p>
+                                       </div>
+                                       <div class="add-more d-flex justify-content-between align-items-center">
+                                          <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                          <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                          <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-8 col-12 left-menu menu-smaller">
+                     <div class="container left-menu-container">
+                        <div class="row">
+                           <div class="col-12 right-menu menu-smaller right-menu-smallest d-sm-none d-block">
+                              <div class="right-menu-container">
+                                 <div class="d-flex justify-content-center align-items-center">
+                                    <ul class="d-flex justify-content-between align-items-center w-100 m-0 p-0">
+                                       <li class="fs-14">Tất cả</li>
+                                       <li class="fs-14">Sữa đậu</li>
+                                       <li class="fs-14">Salad đậu</li>
+                                       <li class="fs-14">Đậu hũ</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="product product-best-seller">
+                              <div class="orange d-flex column-gap-3 position-relative">
+                                 <div class="product-img-best-seller"></div>
+                                 <div class="product-detail pt-3 d-flex flex-column justify-content-between">
+                                    <div class="product-detail-up">
+                                       <h2 class="detail-block">Sữa đậu lăng đỏ yến mạch</h2>
+                                       <div class="capacity-rate detail-block d-flex align-items-center">
+                                          <h2 class="fw-regular fs-16">330ml</h2>
+                                          <div class="star-rate d-flex justify-content-center align-items-center">
+                                             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> 
+                                          </div>
+                                       </div>
+                                       <div class="detail d-flex flex-column gap-2">
+                                          <h2 class="fw-regular fs-10">Đậu lăng đỏ, yến mạch, tinh dầu hướng dương, Omega-3, tinh dầu gấc...</h2>
+                                          <div class="values d-flex align-items-center">
+                                             <div class="value">No lâu</div>
+                                             <div class="value">Dinh dưỡng</div>
+                                             <div class="value">Giảm cân</div>
+                                             <i class="fa-solid fa-play"></i>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="product-detail-down">
+                                       <div class="sale d-flex flex-column justify-content-start align-items-center">
+                                          <h3 class="text-nowrap">KHUYẾN MÃI CÒN</h3>
+                                          <p class="fw-heavy text-white fs-10 m-0 text-nowrap">2 ngày : 15 giờ : 50 phút</p>
+                                       </div>
+                                       <div class="price price-sale d-flex flex-column justify-content-center align-items-end">
+                                          <p class="fw-medium fs-10 m-0 text-decoration-line-through">35.000đ</p>
+                                          <h3>32.000đ</h3>
+                                       </div>
+                                       <div class="fav-cart d-flex justify-content-between align-items-center column-gap-2">
+                                          <div class="added-to-favorite d-flex align-items-end">
+                                             <i class="fa-solid fa-heart text-orange"></i>
+                                          </div>
+                                          <div class="add-to-cart-best-seller">
+                                             <div class="add-to d-flex align-items-center">
+                                                <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                                <p class="fw-bold fs-10 text-white m-0 text-nowrap">Thêm vào giỏ hàng</p>
+                                             </div>
+                                             <div class="add-more-best-seller">
+                                                <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                                <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                                <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="best-seller-tag position-absolute">
+                                    Best seller
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="product">
+                              <div class="brown d-flex">
+                                 <div class="product-img product-brown"></div>
+                                 <div class="product-detail-normal d-flex flex-column justify-content-between">
+                                    <div class="product-detail-normal-up">
+                                       <h2 class="detail-block product-name">Sữa đậu đỏ <br> gạo lứt</h2>
+                                       <div class="capacity d-flex align-items-start pt-md-1 pt-sm-0 detail-block">
+                                          <h2 class="fw-regular fs-16">330ml</h2>
+                                       </div>
+                                       <div class="detail d-flex flex-column gap-2">
+                                          <h2 class="fw-regular fs-10 p-0">Đậu đỏ, gạo lứt, tinh dầu gấc, Omega-3...</h2>
+                                          <div class="values d-flex align-items-center">
+                                             <div class="value text-nowrap">Duy trì cân năng</div>
+                                             <div class="value text-nowrap d-md-block d-none">Tim mạch</div>
+                                             <i class="fa-solid fa-play"></i>
+                                          </div>
+                                       </div>
+                                       <div class="rate detail-block">
+                                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-duotone fa-star-half"></i>
+                                       </div>
+                                       <div class="price d-flex flex-column justify-content-end align-items-end">
+                                          <h3 class="text-normal fw-bold">35.000đ</h3>
+                                       </div>
+                                    </div>
+                                    <div class="product-detail-normal-down-smaller d-flex justify-content-between">
+                                       <div class="add-to-favorite d-flex align-items-end">
+                                          <i class="fa-solid fa-heart"></i>
+                                       </div>
+                                       <div class="add-to-cart d-flex align-items-center">
+                                          <div class="add-to d-flex align-items-center">
+                                             <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                             <p class="fw-bold fs-10 text-white m-0 text-nowrap d-md-block d-none">Thêm vào giỏ hàng</p>
+                                          </div>
+                                          <div class="add-more d-flex justify-content-between align-items-center d-md-flex d-none">
+                                             <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                             <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                             <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="product">
+                              <div class="yellow d-flex">
+                                 <div class="product-img product-yellow"></div>
+                                 <div class="product-detail-normal d-flex flex-column justify-content-between">
+                                    <div class="product-detail-normal-up">
+                                       <h2 class="detail-block product-name">Sữa bắp hạt <br> sen</h2>
+                                       <div class="capacity d-flex align-items-start pt-md-1 pt-sm-0 pt-1 detail-block">
+                                          <h2 class="fw-regular fs-16">330ml</h2>
+                                       </div>
+                                       <div class="detail d-flex flex-column gap-2">
+                                          <h2 class="fw-regular fs-10 p-0">Bắp, hạt sen, tinh dầu gấc, Omega-3...</h2>
+                                          <div class="values d-flex align-items-center">
+                                             <div class="value">Đẹp da</div>
+                                             <div class="value d-md-block d-none">Cải thiện trí nhớ</div>
+                                             <i class="fa-solid fa-play"></i>
+                                          </div>
+                                       </div>
+                                       <div class="rate detail-block">
+                                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-duotone fa-star-half"></i>
+                                       </div>
+                                       <div class="price d-flex flex-column justify-content-end align-items-end">
+                                          <h3 class="text-normal fw-bold">35.000đ</h3>
+                                       </div>
+                                    </div>
+                                    <div class="product-detail-normal-down-smaller d-flex justify-content-between">
+                                       <div class="add-to-favorite d-flex align-items-end">
+                                          <i class="fa-solid fa-heart"></i>
+                                       </div>
+                                       <div class="add-to-cart d-flex align-items-center">
+                                          <div class="add-to d-flex align-items-center">
+                                             <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                             <p class="fw-bold fs-10 text-white m-0 text-nowrap d-md-block d-none">Thêm vào giỏ hàng</p>
+                                          </div>
+                                          <div class="add-more d-flex justify-content-between align-items-center d-md-flex d-none">
+                                             <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                             <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                             <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="product">
+                              <div class="gray d-flex">
+                                 <div class="product-img product-gray"></div>
+                                 <div class="product-detail-normal d-flex flex-column justify-content-between">
+                                    <div class="product-detail-normal-up">
+                                       <h2 class="detail-block product-name">Sữa đậu đen <br> mè đen</h2>
+                                       <div class="capacity d-flex align-items-start pt-md-1 pt-sm-0 pt-1 detail-block">
+                                          <h2 class="fw-regular fs-16">330ml</h2>
+                                       </div>
+                                       <div class="detail d-flex flex-column gap-2">
+                                          <h2 class="fw-regular fs-10 p-0">Đậu đen, mè đen, tinh dầu gấc, Omega-3...</h2>
+                                          <div class="values d-flex align-items-center">
+                                             <div class="value">Tiêu hóa</div>
+                                             <div class="value d-md-block d-none">Giảm cân</div>
+                                             <i class="fa-solid fa-play"></i>
+                                          </div>
+                                       </div>
+                                       <div class="rate detail-block">
+                                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-duotone fa-star-half"></i>
+                                       </div>
+                                       <div class="price d-flex flex-column justify-content-end align-items-end">
+                                          <h3 class="text-normal fw-bold">35.000đ</h3>
+                                       </div>
+                                    </div>
+                                    <div class="product-detail-normal-down-smaller d-flex justify-content-between">
+                                       <div class="add-to-favorite d-flex align-items-end">
+                                          <i class="fa-solid fa-heart"></i>
+                                       </div>
+                                       <div class="add-to-cart d-flex align-items-center">
+                                          <div class="add-to d-flex align-items-center">
+                                             <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                             <p class="fw-bold fs-10 text-white m-0 text-nowrap d-md-block d-none">Thêm vào giỏ hàng</p>
+                                          </div>
+                                          <div class="add-more d-flex justify-content-between align-items-center d-md-flex d-none d-md-flex d-none">
+                                             <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                             <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                             <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="product">
+                              <div class="green d-flex">
+                                 <div class="product-img product-green"></div>
+                                 <div class="product-detail-normal d-flex flex-column justify-content-between">
+                                    <div class="product-detail-normal-up">
+                                       <h2 class="detail-block product-name">Sữa đậu xanh <br> lá dứa</h2>
+                                       <div class="capacity d-flex align-items-start pt-md-1 pt-sm-0 pt-1 detail-block">
+                                          <h2 class="fw-regular fs-16">330ml</h2>
+                                       </div>
+                                       <div class="detail d-flex flex-column gap-2">
+                                          <h2 class="fw-regular fs-10 p-0">Đậu xanh, lá dứa, tinh dầu hướng dương...</h2>
+                                          <div class="values d-flex align-items-center">
+                                             <div class="value">Giải nhiệt</div>
+                                             <div class="value d-md-block d-none">Thanh mát</div>
+                                             <i class="fa-solid fa-play"></i>
+                                          </div>
+                                       </div>
+                                       <div class="rate detail-block">
+                                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-duotone fa-star-half"></i>
+                                       </div>
+                                       <div class="price d-flex flex-column justify-content-end align-items-end">
+                                          <h3 class="text-normal fw-bold">35.000đ</h3>
+                                       </div>
+                                    </div>
+                                    <div class="product-detail-normal-down-smaller d-flex justify-content-between">
+                                       <div class="add-to-favorite d-flex align-items-end">
+                                          <i class="fa-solid fa-heart"></i>
+                                       </div>
+                                       <div class="add-to-cart d-flex align-items-center">
+                                          <div class="add-to d-flex align-items-center">
+                                             <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                             <p class="fw-bold fs-10 text-white m-0 text-nowrap d-md-block d-none">Thêm vào giỏ hàng</p>
+                                          </div>
+                                          <div class="add-more d-flex justify-content-between align-items-center d-md-flex d-none">
+                                             <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                             <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                             <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="product">
+                              <div class="blue d-flex">
+                                 <div class="product-img product-blue"></div>
+                                 <div class="product-detail-normal d-flex flex-column justify-content-between">
+                                    <div class="product-detail-normal-up">
+                                       <h2 class="detail-block product-name">Sữa đậu trắng hoa đậu biếc</h2>
+                                       <div class="capacity d-flex align-items-start pt-md-1 pt-sm-0 pt-1 detail-block">
+                                          <h2 class="fw-regular fs-16">330ml</h2>
+                                       </div>
+                                       <div class="detail d-flex flex-column gap-2">
+                                          <h2 class="fw-regular fs-10 p-0">Đậu trắng, hoa đậu biếc, tinh dầu gấc...</h2>
+                                          <div class="values d-flex align-items-center">
+                                             <div class="value">Giảm cân</div>
+                                             <div class="value d-md-block d-none">Chống lão hóa</div>
+                                             <i class="fa-solid fa-play"></i>
+                                          </div>
+                                       </div>
+                                       <div class="rate detail-block">
+                                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-duotone fa-star-half"></i>
+                                       </div>
+                                       <div class="price d-flex flex-column justify-content-end align-items-end">
+                                          <h3 class="text-normal fw-bold">35.000đ</h3>
+                                       </div>
+                                    </div>
+                                    <div class="product-detail-normal-down-smaller d-flex justify-content-between">
+                                       <div class="add-to-favorite d-flex align-items-end">
+                                          <i class="fa-solid fa-heart"></i>
+                                       </div>
+                                       <div class="add-to-cart d-flex align-items-center">
+                                          <div class="add-to d-flex align-items-center">
+                                             <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                             <p class="fw-bold fs-10 text-white m-0 text-nowrap d-md-block d-none">Thêm vào giỏ hàng</p>
+                                          </div>
+                                          <div class="add-more d-flex justify-content-between align-items-center d-md-flex d-none">
+                                             <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                             <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                             <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="product">
+                              <div class="purple d-flex">
+                                 <div class="product-img product-purple"></div>
+                                 <div class="product-detail-normal d-flex flex-column justify-content-between">
+                                    <div class="product-detail-normal-up">
+                                       <h2 class="detail-block product-name">Sữa đậu nành <br> nếp cẩm</h2>
+                                       <div class="capacity d-flex align-items-start pt-md-1 pt-sm-0 pt-1 detail-block">
+                                          <h2 class="fw-regular fs-16">330ml</h2>
+                                       </div>
+                                       <div class="detail d-flex flex-column gap-2">
+                                          <h2 class="fw-regular fs-10 p-0">Đậu nành, nếp cẩm, tinh dầu gấc...</h2>
+                                          <div class="values d-flex align-items-center">
+                                             <div class="value">Tốt cho xương</div>
+                                             <div class="value d-md-block d-none">Calo thấp</div>
+                                             <i class="fa-solid fa-play"></i>
+                                          </div>
+                                       </div>
+                                       <div class="rate detail-block">
+                                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-duotone fa-star-half"></i>
+                                       </div>
+                                       <div class="price d-flex flex-column justify-content-end align-items-end">
+                                          <h3 class="text-normal fw-bold">35.000đ</h3>
+                                       </div>
+                                    </div>
+                                    <div class="product-detail-normal-down-smaller d-flex justify-content-between">
+                                       <div class="add-to-favorite d-flex align-items-end">
+                                          <i class="fa-solid fa-heart"></i>
+                                       </div>
+                                       <div class="add-to-cart d-flex align-items-center">
+                                          <div class="add-to d-flex align-items-center">
+                                             <i class="fa-duotone fa-bag-shopping text-white fs-13"></i>
+                                             <p class="fw-bold fs-10 text-white m-0 text-nowrap d-md-block d-none">Thêm vào giỏ hàng</p>
+                                          </div>
+                                          <div class="add-more d-flex justify-content-between align-items-center d-md-flex d-none">
+                                             <i class="fa-solid fa-square-minus text-white opacity-25 fs-10"></i>
+                                             <input class="d-flex align-content-center text-center text-white fw-bold fs-10" type="text" value="1">
+                                             <i class="fa-solid fa-square-plus text-white fs-10"></i>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-3 ps-2 right-menu menu-big">
+                     <div class="right-menu-container">
+                        <div class="menu-title d-flex justify-content-center align-items-center fs-20 fw-heavy">
+                           Danh mục sản phẩm
+                        </div>
+                        <div class="menu-section">
+                           <div class="tatca">
+                              <p>Tất cả</p>
+                           </div>
+                           <hr>
+                           <div class="suadau d-flex justify-content-between align-items-center">
+                              <p class="section-selected">Sữa đậu</p>
+                              <div class="section-type d-flex justify-content-between align-items-center">
+                                 Signature
+                                 <i class="fa-solid fa-chevron-down fa-xs fa-rotate-180"></i>
+                              </div>
+                           </div>
+                           <div class="suadau-expanded">
+                              <p class="expanded-selected">330ml</p>
+                              <p>400ml</p>
+                           </div>
+                           <div class="salad-dau d-flex justify-content-between align-items-center">
+                              <p>Salad đậu</p>
+                              <div class="section-type d-flex justify-content-between align-items-center">
+                                 New
+                                 <i class="fa-solid fa-chevron-down fa-xs"></i>
+                              </div>
+                           </div>
+                           <div class="dauhu d-flex justify-content-between align-items-center">
+                              <p>Đậu hũ</p>
+                              <div class="section-type d-flex justify-content-between align-items-center">
+                                 New
+                                 <i class="fa-solid fa-chevron-down fa-xs"></i>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-4 ps-2 right-menu menu-small">
+                     <div class="right-menu-container">
+                        <div class="menu-title d-flex justify-content-center align-items-center fs-20 fw-heavy">
+                           Danh mục sản phẩm
+                        </div>
+                        <div class="menu-section">
+                           <div class="tatca">
+                              <p>Tất cả</p>
+                           </div>
+                           <hr>
+                           <div class="suadau d-flex justify-content-between align-items-center">
+                              <p class="section-selected">Sữa đậu</p>
+                              <div class="section-type d-flex justify-content-between align-items-center">
+                                 Signature
+                                 <i class="fa-solid fa-chevron-down fa-xs fa-rotate-180"></i>
+                              </div>
+                           </div>
+                           <div class="suadau-expanded">
+                              <p class="expanded-selected">330ml</p>
+                              <p>400ml</p>
+                           </div>
+                           <div class="salad-dau d-flex justify-content-between align-items-center">
+                              <p>Salad đậu</p>
+                              <div class="section-type d-flex justify-content-between align-items-center">
+                                 New
+                                 <i class="fa-solid fa-chevron-down fa-xs"></i>
+                              </div>
+                           </div>
+                           <div class="dauhu d-flex justify-content-between align-items-center">
+                              <p>Đậu hũ</p>
+                              <div class="section-type d-flex justify-content-between align-items-center">
+                                 New
+                                 <i class="fa-solid fa-chevron-down fa-xs"></i>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-4 ps-2 right-menu menu-smaller right-menu-smaller">
+                     <div class="right-menu-container">
+                        <div class="menu-title d-flex justify-content-center align-items-center fs-20 fw-heavy">
+                           Danh mục sản phẩm
+                        </div>
+                        <div class="menu-section">
+                           <div class="tatca">
+                              <p>Tất cả</p>
+                           </div>
+                           <hr>
+                           <div class="suadau d-flex justify-content-between align-items-center">
+                              <p class="section-selected">Sữa đậu</p>
+                              <div class="section-type d-flex justify-content-between align-items-center">
+                                 <span class="d-md-block d-none">Signature</span>
+                                 <i class="fa-solid fa-chevron-down fa-xs fa-rotate-180"></i>
+                              </div>
+                           </div>
+                           <div class="suadau-expanded">
+                              <p class="expanded-selected">330ml</p>
+                              <p>400ml</p>
+                           </div>
+                           <div class="salad-dau d-flex justify-content-between align-items-center">
+                              <p>Salad đậu</p>
+                              <div class="section-type d-flex justify-content-between align-items-center">
+                                 <span class="d-md-block d-none">New</span>
+                                 <i class="fa-solid fa-chevron-down fa-xs"></i>
+                              </div>
+                           </div>
+                           <div class="dauhu d-flex justify-content-between align-items-center">
+                              <p>Đậu hũ</p>
+                              <div class="section-type d-flex justify-content-between align-items-center">
+                                 <span class="d-md-block d-none">New</span>
+                                 <i class="fa-solid fa-chevron-down fa-xs"></i>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="hero-section feedback">
+               <div class="feedback-container d-flex flex-column align-items-center">
+                  <div class="bullet text-center d-flex justify-content-center align-items-center">
+                     <span class="bullet-1"></span>
+                     <span class="bullet-2"></span>
+                  </div>
+                  <div class="feedback-title d-flex flex-column justify-content-center align-items-center">
+                     <img src="../assets/image/Logo.webp" alt="" class="comment-logo">
+                     <h1 class="text-center">Mọi người nghĩ gì về chúng mình</h1>
+                  </div>
+                  <div class="comment d-flex flex-column justify-content-between align-items-center text-center">
+                     <div class="customer d-flex flex-column align-items-center text-center">
+                        <img src="../assets/image/HuongNhi.webp" alt="" class="customer-avatar mb-3">
+                        <h5>Ngon như sếp iem 🤌</h5>
+                        <div class="customer-rate d-flex justify-content-between align-items-center">
+                           <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                     </div>
+                     <p class="m-0">Ngàn nụ hồng, Ngàn nụ hồng, Tặng cho sếp Bình, Chúc sếp Bình mãi, Luôn xinh tươi yêu đời, Vạn nụ hồng, Vạn nụ hồng, Tặng cho sếp yêu, Sếp thông minh, Lại còn, Rất xinh, rất xinh, 13 tháng 11, ngày học WED301, Chúc sếp xinh đẹp, Luôn nở nụ cười, Chúng em tự hào, Được làm sinh viên...</p>
+                     <div class="customer-name">
+                        Khách hàng: <span>Hương Nhi</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="connect">
+         <div class="container connect-container d-flex flex-column justify-content-between align-items-center">
+            <h1 class="text-center">Kết nối với chúng mình</h1>
+            <div class="col-lg-8 col-md-10 col-11 connect-main d-flex flex-column text-center">
+               <span class="fs-20 fw-light">Vui lòng nhập thông tin của bạn</span>
+               <div class="connect-input">
+                  <div class="phone d-flex align-items-center">
+                     <i class="fa-solid fa-phone"></i>
+                     <input class="d-flex align-content-center w-100" type="text" placeholder="Số điện thoại của bạn... (bắt buộc)">
+                  </div>
+                  <div class="mail d-flex align-items-center">
+                     <i class="fa-solid fa-at"></i>
+                     <input class="d-flex align-content-center w-100" type="text" placeholder="E-mail của bạn...">
+                  </div>
+                  <div class="message d-flex align-items-start">
+                     <textarea class="d-flex align-content-center w-100 d-sm-flex d-none" type="text" placeholder="Bạn muốn nhắn với chúng mình điều gì..."></textarea>
+                     <textarea class="d-flex align-content-center w-100 d-sm-none d-flex" type="text" placeholder="Bạn muốn nhắn với chúng mình..."></textarea>
+                  </div>
+                  <div class="confirm">
+                     <button>Xác nhận gửi</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="contact-us" id="contact-us">
+         <div class="container contact-us-container d-flex flex-column justify-content-between align-items-center">
+            <h1 class="text-center d-sm-block d-none">Hoặc liên lạc trực tiếp với chúng mình</h1>
+            <h1 class="text-center d-sm-none d-block">Hoặc liên lạc trực tiếp <br> với chúng mình</h1>
+            <div class="col-lg-6 col-8 d-flex flex-column text-center">
+               <div class="row gy-3">
+                  <div class="contact-us-type col-md-4 col-12 d-flex align-items-center justify-content-center column-gap-2">
+                     <i class="fa-solid fa-phone fs-16"></i>
+                     <p class="m-0">Hotline: <span>1900 1024</span></p>
+                  </div>
+                  <div class="contact-us-type col-md-4 col-12 d-flex align-items-center justify-content-center column-gap-2">
+                     <i class="fa-solid fa-at fs-16"></i>
+                     <p class="m-0">beanjr@gmail.com</p>
+                  </div>
+                  <div class="contact-us-type col-md-4 col-12 d-flex align-items-center justify-content-center column-gap-2">
+                     <img src="../assets/image/Zalo.svg" alt="">
+                     <p class="m-0">+84 817 818 898</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="footer" id="footer">
+      <div class="footer-bg container-fluid">
+         <div class="footer-container footer-container-big container">
+            <div class="row">
+               <div class="col-3 left-footer d-flex flex-column row-gap-3">
+                  <img src="../assets/image/Logo-inverted.webp" alt="" class="logo-inverted">
+                  <h6 class="pe-5">"Chúng mình mang những chai sữa dinh dưỡng và mát lành đến với mọi nhà!"</h6>
+               </div>
+               <div class="col-9 right-footer">
+                  <div class="row">
+                     <div class="col-4 footer-col d-flex flex-column">
+                        <h1>Về Bean Jr.</h1>
+                        <ul class="d-flex flex-column">
+                           <li><a href="#">Hệ thống bán hàng</a></li>
+                           <li><a href="#">Câu chuyện thương hiệu</a></li>
+                           <li><a href="#">Nguồn nguyên liệu</a></li>
+                           <li><a href="#">Cẩm nang Bean Jr.</a></li>
+                           <li><a href="#">Ưu đãi thành viên</a></li>
+                        </ul>
+                     </div>
+                     <div class="col-4 footer-col d-flex flex-column">
+                        <h1>Hỗ trợ</h1>
+                        <ul class="d-flex flex-column">
+                           <li><a href="#">Hướng dẫn đặt hàng</a></li>
+                           <li><a href="#">Chính sách giao hàng</a></li>
+                           <li><a href="#">Chính sách bảo mật</a></li>
+                           <li><a href="#">CSKH</a></li>
+                           <li><a href="#">Điều khoản & điều kiện</a></li>
+                        </ul>
+                     </div>
+                     <div class="col-4 footer-col d-flex flex-column">
+                        <h1>Theo dõi chúng mình</h1>
+                        <div class="social-media d-flex">
+                           <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                           <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                           <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-4 footer-col d-flex flex-column">
+                        <h1>Liên hệ</h1>
+                        <ul class="d-flex flex-column">
+                           <li><a href="#">Hotline: 1900 1024</a></li>
+                           <li><a href="#">Tổng đài CSKH: 1900 1025</a></li>
+                           <li class="fs-12 fw-light text-white">(Hoạt động: 08:00 đến 21:30)</li>
+                        </ul>
+                     </div>
+                     <div class="col-8 footer-col d-flex flex-column">
+                        <h1>Tải ứng dụng</h1>
+                        <div class="download-src d-flex">
+                           <a href="#"><img src="../assets/image/AppStore.svg" alt="" height="40px"></a>
+                           <a href="#"><img src="../assets/image/GooglePlay.svg" alt="" height="40px"></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <hr class="mt-5">
+            <div class="copy-right d-flex justify-content-center align-items-center">
+               Bản quyền &#169; 2023 Bean Jr.
+            </div>
+         </div>
+         <div class="footer-container footer-container-smaller container">
+            <div class="row gy-sm-5 gy-4">
+               <div class="col-sm-6 col-12 left-footer d-flex flex-column row-gap-3">
+                  <img src="../assets/image/Logo-inverted.webp" alt="" class="logo-inverted">
+                  <h6>"Chúng mình mang những chai sữa dinh dưỡng và mát lành đến với mọi nhà!"</h6>
+               </div>
+               <div class="col-sm-6 col-12 footer-col d-flex flex-column">
+                  <h1 class="d-flex justify-content-between align-items-center">
+                     Về Bean Jr.
+                     <i class="fa-solid fa-chevron-down fa-xs d-sm-none d-block"></i>
+                  </h1>
+                  <ul class="d-flex flex-column d-sm-block d-none">
+                     <li><a href="#">Hệ thống bán hàng</a></li>
+                     <li><a href="#">Câu chuyện thương hiệu</a></li>
+                     <li><a href="#">Nguồn nguyên liệu</a></li>
+                     <li><a href="#">Cẩm nang Bean Jr.</a></li>
+                     <li><a href="#">Ưu đãi thành viên</a></li>
+                  </ul>
+                  <hr class="d-sm-none d-block">
+               </div>
+               <div class="col-sm-6 col-12 footer-col d-flex flex-column">
+                  <h1 class="d-flex justify-content-between align-items-center">
+                     Hỗ trợ
+                     <i class="fa-solid fa-chevron-down fa-xs d-sm-none d-block"></i>
+                  </h1>
+                  <ul class="d-flex flex-column d-sm-block d-none">
+                     <li><a href="#">Hướng dẫn đặt hàng</a></li>
+                     <li><a href="#">Chính sách giao hàng</a></li>
+                     <li><a href="#">Chính sách bảo mật</a></li>
+                     <li><a href="#">CSKH</a></li>
+                     <li><a href="#">Điều khoản & điều kiện</a></li>
+                  </ul>
+                  <hr class="d-sm-none d-block">
+               </div>
+               <div class="col-sm-6 col-12 footer-col d-flex flex-column d-sm-flex d-none">
+                  <h1>Theo dõi chúng mình</h1>
+                  <div class="social-media d-flex">
+                     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                     <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                  </div>
+               </div>
+               <div class="col-sm-6 col-12 footer-col d-flex flex-column">
+                  <h1 class="d-flex justify-content-between align-items-center">
+                     Liên hệ
+                     <i class="fa-solid fa-chevron-down fa-xs d-sm-none d-block"></i>
+                  </h1>
+                  <ul class="d-flex flex-column d-sm-block d-none">
+                     <li><a href="#">Hotline: 1900 1024</a></li>
+                     <li><a href="#">Tổng đài CSKH: 1900 1025</a></li>
+                     <li class="fs-12 fw-light text-white">(Hoạt động: 08:00 đến 21:30)</li>
+                  </ul>
+                  <hr class="d-sm-none d-block">
+               </div>
+               <div class="col-sm-6 col-12 footer-col d-flex flex-column d-sm-none d-block">
+                  <div class="social-media d-flex">
+                     <a href="#"><i class="fa-brands fa-facebook-f fs-32"></i></a>
+                     <a href="#"><i class="fa-brands fa-instagram fs-32"></i></a>
+                     <a href="#"><i class="fa-brands fa-x-twitter fs-32"></i></a>
+                  </div>
+               </div>
+               <div class="col-sm-6 col-12 footer-col d-flex flex-column">
+                  <h1>Tải ứng dụng</h1>
+                  <div class="download-src d-flex">
+                     <a href="#"><img src="../assets/image/AppStore.svg" alt="" height="40px"></a>
+                     <a href="#"><img src="../assets/image/GooglePlay.svg" alt="" height="40px"></a>
+                  </div>
+               </div>
+            </div>
+            <hr class="mt-5">
+            <div class="copy-right d-flex justify-content-center align-items-center">
+               Bản quyền &#169; 2023 Bean Jr.
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+   <script src="../js/main.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
