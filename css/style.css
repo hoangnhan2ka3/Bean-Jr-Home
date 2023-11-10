@@ -1093,7 +1093,6 @@ html{
 	align-items: center;
 	width: 100%;
 	grid-area: cart;
-	justify-content: space-between;
 	padding: 8px 12px;
 	background-color: var(--text-color);
 	border-radius: 100px;
