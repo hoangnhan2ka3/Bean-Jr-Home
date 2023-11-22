@@ -13,7 +13,13 @@ html{
 	background-size: 10%;
 	z-index: 9999;
 	opacity: 1;
-	transition: opacity 0.3s ease;
+	visibility: visible;
+   transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+#preloader.hidden {
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 ::-webkit-scrollbar{
 	background-color: var(--white);

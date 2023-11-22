@@ -71,10 +71,10 @@ window.onload = function() {
 }
 
 
-// Hàm để ẩn đi phần tử có id là "preloader" với hiệu ứng ease
+// Hàm để ẩn đi phần tử có id là "preloader" hoàn toàn
 function hidePreloader() {
    var preloader = document.getElementById("preloader");
-   preloader.style.opacity = '0'; // Đặt opacity thành 0 để ẩn preloader
+   preloader.classList.add("hidden");
 }
 
 // Biến kiểm soát xem sự kiện "load" đã xảy ra chưa
@@ -101,5 +101,8 @@ document.addEventListener("readystatechange", function() {
        hidePreloader();
    }
 });
+
+
+
 
 
