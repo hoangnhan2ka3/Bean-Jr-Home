@@ -69,3 +69,37 @@ window.onload = function() {
    const homeLink = document.querySelector('.home-link');
    homeLink.classList.add('active');
 }
+
+
+// Hàm để ẩn đi phần tử có id là "preloader" với hiệu ứng ease
+function hidePreloader() {
+   var preloader = document.getElementById("preloader");
+   preloader.style.opacity = '0'; // Đặt opacity thành 0 để ẩn preloader
+}
+
+// Biến kiểm soát xem sự kiện "load" đã xảy ra chưa
+var isPageLoaded = false;
+
+// Thêm sự kiện "load" vào window
+window.addEventListener("load", function() {
+   isPageLoaded = true;
+   hidePreloader(); // Gọi hàm để ẩn preloader khi trang web đã tải xong
+});
+
+// Đặt một đồng hồ đếm thời gian, sau 5 giây, ẩn đi preloader nếu trang chưa tải xong
+var timeoutID = setTimeout(function() {
+   if (!isPageLoaded) {
+       hidePreloader();
+   }
+}, 5000);
+
+// Thêm sự kiện "readystatechange" để kiểm tra trạng thái tải của trang
+document.addEventListener("readystatechange", function() {
+   // Nếu trạng thái tải của trang là "complete", hủy bỏ đồng hồ đếm thời gian và ẩn preloader
+   if (document.readyState === "complete") {
+       clearTimeout(timeoutID);
+       hidePreloader();
+   }
+});
+
+
