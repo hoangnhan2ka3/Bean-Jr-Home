@@ -1,5 +1,4 @@
 var splide = new Splide( '.splide',{
-   padding: '12px',
    gap    : '12px',
    autoplay: true,
    lazyLoad: 'nearby',
@@ -61,14 +60,27 @@ window.addEventListener("scroll", function(){
    }
 });
 
-window.onload = function() {
-   if(window.location.href !== "https://hoangnhan2ka3.github.io/Bean-Jr-Home/") {
-      window.location.href = "https://hoangnhan2ka3.github.io/Bean-Jr-Home/";
+window.addEventListener('beforeunload', function () {
+   if (window.location.href !== window.location.origin) {
+       window.location.href = window.location.origin;
    }
+});
 
-   const homeLink = document.querySelector('.home-link');
-   homeLink.classList.add('active');
-}
+document.addEventListener('DOMContentLoaded', function () {
+   // Chờ đến khi trang đã tải xong
+   var logoLink = document.getElementById('LogoLink');
+
+   logoLink.addEventListener('click', function (event) {
+       // Kiểm tra nếu đường dẫn không phải là trang chính nó
+       if (logoLink.href !== window.location.origin) {
+           // Ngăn chặn chuyển hướng mặc định của liên kết nếu không ở trang chính nó
+           event.preventDefault();
+
+           // Chuyển hướng đến trang chính nó
+           window.location.href = window.location.origin;
+       }
+   });
+});
 
 
 // Hàm để ẩn đi phần tử có id là "preloader" hoàn toàn
@@ -91,7 +103,7 @@ var timeoutID = setTimeout(function() {
    if (!isPageLoaded) {
        hidePreloader();
    }
-}, 5000);
+}, 12000);
 
 // Thêm sự kiện "readystatechange" để kiểm tra trạng thái tải của trang
 document.addEventListener("readystatechange", function() {

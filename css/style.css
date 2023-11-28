@@ -174,11 +174,14 @@ html{
  }
 .nav-container,
 .order-container,
-.banner,
 .hero-container,
 .footer-container{
 	max-width: 1048px !important;
 	margin: 0 auto !important;
+}
+.banner{
+	max-width: 1024px;
+	margin: 0 auto;
 }
 .fw-light{
 	font-family: var(--gilmer-light) !important;
@@ -259,7 +262,7 @@ html{
 	opacity: .05;
 	background-color: var(--text-color);
 	color: var(--white);
-	right: 65px;
+	right: 50px;
 	transition: all 0.3s ease;
 }
 #splide01 > div.splide__arrows.splide__arrows--ltr > button.splide__arrow.splide__arrow--prev{
@@ -268,7 +271,7 @@ html{
 	opacity: .05;
 	background-color: var(--text-color);
 	color: var(--white);
-	left: 65px;
+	left: 50px;
 	transition: all 0.3s ease;
 }
 #splide01 > div.splide__arrows.splide__arrows--ltr > button.splide__arrow.splide__arrow--next:hover, #splide01 > div.splide__arrows.splide__arrows--ltr > button.splide__arrow.splide__arrow--prev:hover{
@@ -2052,6 +2055,10 @@ html{
 	}
 	.footer-container-big{
 		display: block;
+	}
+	.banner{
+		max-width: 100%;
+		margin: 0;
 	}
 }
 /* LG */
