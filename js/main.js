@@ -60,28 +60,22 @@ window.addEventListener("scroll", function(){
    }
 });
 
+// Sự kiện beforeunload để chuyển hướng trước khi unload trang
 window.addEventListener('beforeunload', function () {
    if (window.location.href !== window.location.origin) {
        window.location.href = window.location.origin;
    }
 });
 
-document.addEventListener('DOMContentLoaded', function () {
-   // Chờ đến khi trang đã tải xong
-   var logoLink = document.getElementById('LogoLink');
+// Sự kiện onload để cuộn lên đầu trang khi trang đã được load
+window.onload = function () {
+   window.scrollTo(0, 0);
 
-   logoLink.addEventListener('click', function (event) {
-       // Kiểm tra nếu đường dẫn không phải là trang chính nó
-       if (logoLink.href !== window.location.origin) {
-           // Ngăn chặn chuyển hướng mặc định của liên kết nếu không ở trang chính nó
-           event.preventDefault();
-
-           // Chuyển hướng đến trang chính nó
-           window.location.href = window.location.origin;
-       }
-   });
-});
-
+   // Xóa hash khi trang đã load
+   if (window.location.hash) {
+       history.replaceState(null, null, ' ');
+   }
+}
 
 // Hàm để ẩn đi phần tử có id là "preloader" hoàn toàn
 function hidePreloader() {
@@ -113,8 +107,3 @@ document.addEventListener("readystatechange", function() {
        hidePreloader();
    }
 });
-
-
-
-
-
